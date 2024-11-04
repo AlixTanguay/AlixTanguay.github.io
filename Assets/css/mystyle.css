@@ -1,6 +1,16 @@
-h1 {color: blue}
+h1 {
+    text-align: center;
+}
+#heading-section-top{
+    color:green;
+}
 h2 {color: green}
 h3 {color: purple}
 h4 {color: yellow}
 h5 {color: red}
+
 body  {background-color: darksalmon ;}
+
+.font-color-pink{
+    color: orange;
+}
