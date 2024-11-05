@@ -1,16 +1,26 @@
 h1 {
     text-align: center;
 }
+/*this is an id, can only be used once*/
 #heading-section-top{
     color:green;
 }
-h2 {color: green}
+h2 {
+    color: green;
+    background-color: aquamarine;
+}
+
 h3 {color: purple}
 h4 {color: yellow}
 h5 {color: red}
 
-body  {background-color: darksalmon ;}
+body  {
+    background-image: url("../IMG/Sample1.jpg");
+}
 
+
+/*this is a class, can be used many time throughout*/
+/*for the project we are using the rbg color scheme*/
 .font-color-orange{
     color: crimson;
 }
