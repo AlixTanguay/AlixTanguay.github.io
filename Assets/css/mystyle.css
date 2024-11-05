@@ -10,9 +10,21 @@ h2 {
     background-color: aquamarine;
 }
 
-h3 {color: purple}
-h4 {color: yellow}
-h5 {color: red}
+h3 {
+    color: purple;
+    text-align: center;
+    background-color: violet;
+}
+h4 {
+    color: yellow;
+    text-decoration-color: blue;
+    text-decoration-line: overline;
+    text-decoration-style: wavy;
+
+}
+h5 {
+    color: red;
+}
 
 body  {
     background-image: url("../IMG/Sample1.jpg");
@@ -22,8 +34,15 @@ body  {
 }
 
 
+
 /*this is a class, can be used many time throughout*/
 /*for the project we are using the rbg color scheme*/
 .font-color-orange{
     color: crimson;
+    text-decoration-line: underline;
+}
+
+.dotted-line{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
 }
