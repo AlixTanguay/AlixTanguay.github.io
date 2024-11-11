@@ -9,12 +9,14 @@ h1 {
 }
 
 h2 {
+    text-align: center;
     color: green;
     background-color: aquamarine;
     text-transform: capitalize;
 }
 
 h3 {
+    text-align: center;
     color: purple;
     text-align: center;
     background-color: violet;
@@ -36,28 +38,30 @@ body  {
     background-attachment: fixed;
 }
 
-
-
 /*this is a class, can be used many time throughout*/
 /*for the project we are using the rbg color scheme*/
 .font-color-orange{
     color: crimson;
     text-decoration-line: underline;
 }
-
 .dotted-line{
     text-decoration-line: underline;
     text-decoration-style: dotted;
 }
-
 .font-size-3{
     font-size: 3rem;
 }
-
 .font-size-6{
     font-size: 6rem;
 }
-
 .font-playfair{
     font-family: "Playfair Display", Georgia, serif;
+    font-style: normal;
+    font-weight: normal/bold;
+}
+.font-jost{
+    font-family: "Jost", Times, sans-serif;
+}
+.centered-text{
+    text-align: center;
 }
