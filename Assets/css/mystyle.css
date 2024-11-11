@@ -4,12 +4,14 @@ h1 {
 /*this is an id, can only be used once*/
 #heading-section-top{
     color:green;
+    font-size: 6rem;
+    font-family: "Jost", Times, sans-serif;
 }
+
 h2 {
     color: green;
     background-color: aquamarine;
     text-transform: capitalize;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h3 {
@@ -46,4 +48,16 @@ body  {
 .dotted-line{
     text-decoration-line: underline;
     text-decoration-style: dotted;
+}
+
+.font-size-3{
+    font-size: 3rem;
+}
+
+.font-size-6{
+    font-size: 6rem;
+}
+
+.font-playfair{
+    font-family: "Playfair Display", Georgia, serif;
 }
