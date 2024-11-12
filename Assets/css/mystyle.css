@@ -30,12 +30,13 @@ h4 {
 h5 {
     color: red;
 }
-
+@media (max-width: 576px){
 body  {
     background-image: url("../IMG/Sample1.jpg");
     background-repeat:no-repeat;
     background-position: right top;
     background-attachment: fixed;
+}
 }
 
 /*this is a class, can be used many time throughout*/
@@ -71,11 +72,14 @@ body  {
     line-height: 110px;
 }
 
-a:link, a:visited{
+a:link, a:visited {
+    font-size: 1rem;
+    font-family: "Jost", Times, sans-serif;
     color: chartreuse;
     background-color: coral;
-    padding: 30px, 45px;
-    text-align: center;
+    padding: 25px 25px 75px 75px;
+    margin: 100px;
+    text-align: center !important;
     display: inline-block;
 }
 a:hover{
