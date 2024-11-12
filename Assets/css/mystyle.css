@@ -64,4 +64,16 @@ body  {
 }
 .centered-text{
     text-align: center;
+    word-spacing: 30px;
+}
+.letter-space{
+    letter-spacing: 15px;
+    line-height: 110px;
+}
+
+a:link{
+    color: chartreuse;
+}
+a:hover{
+    color: blue;
 }
