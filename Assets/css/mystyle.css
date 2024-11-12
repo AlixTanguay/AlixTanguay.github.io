@@ -71,8 +71,12 @@ body  {
     line-height: 110px;
 }
 
-a:link{
+a:link, a:visited{
     color: chartreuse;
+    background-color: coral;
+    padding: 30px, 45px;
+    text-align: center;
+    display: inline-block;
 }
 a:hover{
     color: blue;
