@@ -5,14 +5,30 @@ body  {
     background-attachment: fixed;
 }
 .navbar {
-    background-color: rbg(249, 204, 39); /* Primary color */
+    /*background-color: rgb(247, 231, 87);  Primary color */
   }
   .navbar a {
-    color: rbg(3, 3, 3) !important ;
+    color: rgb(3, 3, 3) !important ;
   }
   .navbar a:hover {
-    color: rbg(249, 220, 110) !important ; /* Gold color on hover */
+    color: rgb(249, 220, 110) !important ; /* Gold color on hover */
   }
 h1 {
     text-align: center;
+}
+/* About Me Section Styling */
+#about {
+  background-image: url("../IMG/Sample3.webp");
+    background-repeat:no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+#about h1 {
+  font-size: 2.5rem;
+  color: rgb(3, 3, 3); /* Primary color */
+}
+
+#about img {
+  border: 5px solid rgb(3, 3, 3)ff;
 }
