@@ -1,12 +1,10 @@
 body  {
     background-image: url("../IMG/Sample3.webp");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: right top;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 }
-.navbar {
-    /*background-color: rgb(247, 231, 87);  Primary color */
-  }
+
   .navbar a {
     color: rgb(3, 3, 3) !important ;
   }
@@ -16,13 +14,6 @@ body  {
 h1 {
     text-align: center;
 }
-/* About Me Section Styling */
-#about {
-  background-image: url("../IMG/Sample3.webp");
-    background-repeat:no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
-}
 
 #about h1 {
   font-size: 2.5rem;
@@ -31,4 +22,16 @@ h1 {
 
 #about img {
   border: 5px solid rgb(3, 3, 3)ff;
+}
+.font-playfair{
+  font-family: "Playfair Display", Georgia, serif;
+}
+.font-jost{
+  font-family: "Jost", Times, sans-serif;
+}
+.button{
+  color: rgb(249, 220, 110)
+}
+.centered{
+  text-align: center;
 }
