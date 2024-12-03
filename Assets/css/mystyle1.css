@@ -41,3 +41,43 @@ h1 {
 .black{
   color: rgb(3, 3, 3);
 }
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; 
+}
+.gallery-item {
+  position: relative;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .overlay {
+  opacity: 1; 
+}
+
+.overlay p {
+  margin: 1;
+  font-size: 1rem; 
+}
