@@ -1,41 +1,40 @@
 <html>
     <head><!-- ====Head Start ==== -->
-        <title>Alix Tanguay's professional website</title>
-        <link rel="icon" type="image/x-icon" href="Assets/IMG/smiley.jpeg">
-        <link rel="stylesheet" href="Assets/css/mystyle1.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <title>Alix Tanguay's professional website</title><!--name of my website-->
+        <link rel="icon" type="image/x-icon" href="Assets/IMG/smiley.jpeg"><!--icon that appears on tab-->
+        <link rel="stylesheet" href="Assets/css/mystyle1.css"><!--connecting my css file-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"><!--ensuring responsivness-->
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"><!--link to the custom font used-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"><!--bootstrap-->
     </head><!-- ====Head End ==== -->
     <body><!-- ====Body Start ==== -->
 </html>
 <header><!-- ====Header Start ==== -->
   <nav class="navbar navbar-expand-lg navbar-dark" class="navbar"><!-- ====Navigation Bar Start ==== -->
-    <div class="container">
-      <a class="navbar-brand" class="font-home-button" href="#">Alix Tanguay</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container"><!--container class for the navigation bar-->
+      <a class="navbar-brand" href="#">Alix Tanguay</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><!--creating home button-->
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto font-jost"><!--creating in the next 19 lines all the anchor link so that my navigation bar brings the user to the sections-->
           <li class="nav-item">
-            <a class="nav-link" class="font-playfair"href="#about">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" class="font-playfair"href="#education">Education</a>
+            <a class="nav-link" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" class="font-playfair" href="#work-experience">Work Experience</a>
+            <a class="nav-link"  href="#work-experience">Work Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" class="font-playfair" href="#skills">Skills</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" class="font-playfair" href="#gallery">Gallery</a>
+            <a class="nav-link" href="#gallery">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" class="font-playfair" href="#contact">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -43,20 +42,20 @@
   </nav><!-- ====Navigation Bar End ==== -->
 </header><!-- ====Header End ==== -->
 <section id="about" class="py-5"><!-- ====Section About Start ==== -->
-  <div class="container">
+  <div class="container"><!--creating container for my about section-->
     <div class="row align-items-center">
-      <div class="col-md-4 text-center">
+      <div class="col-md-4 text-center"><!--adding my profile picture creating a single colum grid for medium screens that has a span of 4-->
         <img src="Assets/IMG/cvProfilePic.jpeg" alt="Alix Tanguay" class="img-fluid rounded-circle mb-3" style="max-width: 200px;">
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8"><!--first h1 as well as text about myself-->
         <h1>About Me</h1>
-        <p class="lead">
+        <p>
           Hello! I'm Alix Tanguay, a passionate information studies master's student at McGill University in Montreal. 
         </p>
         <p>
           I specialize in user experience, information architecture, and taxonomies. When I am not studying, I enjoy hiking, travelling, and exploring my city. 
         </p>
-        <div>
+        <div><!--creating a button that links to my LinkedIn page-->
         <a href="https://www.linkedin.com/in/alix-tanguay-941bb61ba" target="_blank" rel="noopener noreferrer">
           <img src="Assets/IMG/linkedin.jpeg" alt="LinkedIn Logo" style="width: 50px; height: 50px; object-fit: contain;">
         </a>
@@ -66,19 +65,19 @@
   </div>
 </section><!-- ====Section About End ==== -->
 <section id="education" class="py-5"><!-- ====Section Education Start ==== -->
-  <div class="container">
-    <h1 class="mb-4">Education</h1>
-    <div class="accordion" id="educationAccordion">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="gradHeading">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gradCollapse" aria-expanded="false" aria-controls="gradCollapse">
+  <div class="container"><!--container for my accordion-->
+    <h1 class="mb-4 font-jost">Education</h1>
+    <div class="accordion" id="educationAccordion"><!--css class for style and id for the accordio-->
+      <div class="accordion-item"><!--css class that gives style to accordion-->
+        <h2 class="accordion-header" id="gradHeading"><!--creating button that makes accordion interactive and creating specific id (same for accordion undergrad)-->
+          <button class="accordion-button collapsed font-jost" type="button" data-bs-toggle="collapse" data-bs-target="#gradCollapse" aria-expanded="false" aria-controls="gradCollapse"><!--adding collapse makes sure that the accordion is closed when the website loads-->
             Graduate Degree
           </button>
         </h2>
-        <div id="gradCollapse" class="accordion-collapse collapse" aria-labelledby="gradHeading" data-bs-parent="#educationAccordion">
-          <div class="accordion-body">
+        <div id="gradCollapse" class="accordion-collapse collapse font-jost" aria-labelledby="gradHeading" data-bs-parent="#educationAccordion">
+          <div class="accordion-body"><!--first making the university logo interactive, then text about my schooling (same for accoridon undergrad)-->
             <a href="https://www.mcgill.ca/sis/programs/mist" target="_blank" rel="noopener noreferrer">
-            <img src="Assets/IMG/mcgill.png" alt="McGill University Logo" class="ms-3" style="width: 250px; height: 140px; object-fit: cover;"><br>
+            <img src="Assets/IMG/mcgill.png" alt="McGill University Logo" class="ms-3" style="width: 250px; height: 140px; object-fit: cover;"><br><!--making sure that image appears on the left-->
             </a>
             Master of Information Studies<br>
             Year of Graduation: 2025<br>
@@ -88,15 +87,15 @@
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header" id="undergradHeading">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#undergradCollapse" aria-expanded="true" aria-controls="undergradCollapse">
+          <button class="accordion-button collapsed font-jost" type="button" data-bs-toggle="collapse" data-bs-target="#undergradCollapse" aria-expanded="true" aria-controls="undergradCollapse">
             Undergraduate Degree
           </button>
         </h2>
-        <div id="undergradCollapse" class="accordion-collapse collapse" aria-labelledby="undergradHeading" data-bs-parent="#educationAccordion">
+        <div id="undergradCollapse" class="accordion-collapse collapse font-jost" aria-labelledby="undergradHeading" data-bs-parent="#educationAccordion">
           <div class="accordion-body">
             <a href="https://www.concordia.ca/artsci/sociology-anthropology/programs/undergraduate/anthropology-sociology-ba.html" target="_blank" rel="noopener noreferrer">
             <img src="Assets/IMG/concordia.png" alt="Concordia University Logo" class="ms-3" style="width: 250px; height: 140px; object-fit: cover;"><br>
-            </a>
+            </a class="font-jost">
             Bachelor of Arts<br>
             Joint Specialization Anthropology and Sociology (Co-op)<br>
             Year of Graduation: 2023<br>
@@ -113,15 +112,15 @@
 <track src="/captions_file.vtt" label="English" kind="captions" srclang="en-us" default="" /> 
 <track src="/French_captions_file.vtt" label="French" kind="subtitles" srclang="fr" /></video>-->
 <section id="work-experience" class="py-5"><!-- ====Section Work Experience Star ==== -->
-  <div class="container">
-    <h1 class="mb-4">Work Experience</h1>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="card h-100 border-warning">
-          <div class="card-body d-flex align-items-start">
-            <img src="Assets/IMG/air transat.png" alt="Air Transat Logo" class="me-3" style="width: 50px; height: 50px; object-fit: cover;">
+  <div class="container"><!--container for work experience cards-->
+    <h1 class="mb-4">Work Experience</h1><!--header of section and specifications about container margins-->
+    <div class="row g-4"><!--specifications about grid and spacing-->
+      <div class="col-md-4"><!--specifications about grid and spacing-->
+        <div class="card h-100 border-warning"><!--(same for all the card) creating card with yellow border that is flexibe-->
+          <div class="card-body d-flex align-items-start"><!--making the card padded, flexible and align with the top-->
+            <img src="Assets/IMG/air transat.png" alt="Air Transat Logo" class="me-3" style="width: 50px; height: 50px; object-fit: cover;"><!--adding logo to the left of the text-->
             <div>
-              <h5 class="card-title">Call Center Agent</h5>
+              <h5 class="card-title">Call Center Agent</h5><!--job title, company and job description with breaks-->
               <p class="card-text">
                 <strong>Air Transat</strong><br>
                 2023 - 2024<br>
@@ -165,13 +164,13 @@
   </div>
 </section><!-- ====Section Work Experience End ==== -->
 <section id="skills" class="py-5"><!-- ====Section Skills Start ==== -->
-  <div class="container">
-    <h1 class="mb-4">Skills</h1>
-    <div class="mb-4">
-      <h2>HTML</h2>
-      <div class="progress">
-        <div class="progress-bar bg-warning" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-      </div>
+  <div class="container"><!--container for progress bar-->
+    <h1 class="mb-4">Skills</h1><!--header for section and specification about margins for responsivness-->
+    <div class="mb-4"><!--specifications about margins for responsivness-->
+      <h2>HTML</h2><!--(same for all the bars) name of the skill-->
+      <div class="progress"><!--css class progress-->
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div><!--setting color as yellow (warning in bootstarp),information and values of the progress bar-->
+      </div><!--text that describe level of skill-->
       <p class="mt-2 text-dark">Adequate at creating HTML files using tools like Bootstrap to create websites like this one.</p>
     </div>
     <div class="mb-4">
@@ -199,14 +198,14 @@
   </div>
 </section><!-- ====Section Skills End ==== -->
 <section id="gallery" class="py-5"><!-- ====Section Gallery Start ==== -->
-  <div class="container">
-    <h1 class="mb-4 text-center">My Recent Trips</h1>
-    <div class="row g-4">
+  <div class="container"><!--container for section gallery-->
+    <h1 class="mb-4 text-center">My Recent Trips</h1><!--header for the section and setting margins-->
+    <div class="row g-4"><!--setting columns for grid-->
       <div class="col-md-4">
-        <div class="gallery-item">
-          <img src="Assets/IMG/gallery11.png" class="card-img-top" alt="Trip 1">
-          <div class="overlay">
-            <p>Athens<br>October 2024<br>A city so rich in history, totally vibrant</p>
+        <div class="gallery-item"><!--(same for all images)class in css-->
+          <img src="Assets/IMG/gallery11.png" class="card-img-top" alt="Trip 1"><!--link to image with class and alternative text-->
+          <div class="overlay"><!--class for the hover-over text-->
+            <p>Athens<br>October 2024<br>A city so rich in history, totally vibrant</p><!--text that appears when we hover with breaks-->
           </div>
         </div>
       </div>
@@ -254,22 +253,22 @@
   </div>
 </section><!-- ====Section Gallery End ==== -->
 <section id="contact" class="py-5"><!-- ====Section Contact Start ==== -->
-  <div class="container">
-    <h1>Contact</h1>
-    <p class="centered">Feel free to contact me on LinkedIn or directly by email!</p>
+  <div class="container"><!--container for contact section-->
+    <h1>Contact</h1><!--header-->
+    <p class="centered">Feel free to contact me on LinkedIn or directly by email!</p><!--text that is centered with css class-->
     <div class="text-center">
-      <a href="mailto:alix.tanguay@mail.mcgill.ca" class="btn btn-link black">alix.tanguay@mail.mcgill.ca</a>
+      <a href="mailto:alix.tanguay@mail.mcgill.ca" class="btn btn-link">alix.tanguay@mail.mcgill.ca</a><!--link that opens a new email with my email address-->
     </div>
-    <div class="d-flex justify-content-center align-items-center" style="height: 100px;">
+    <div class="d-flex justify-content-center align-items-center" style="height: 100px;"><!--interactive LinkedIn logo that opens my profile-->
       <a href="https://www.linkedin.com/in/alix-tanguay-941bb61ba" target="_blank" rel="noopener noreferrer">
-        <img src="Assets/IMG/linkedin.jpeg" alt="LinkedIn Logo" style="width: 50px; height: 50px; object-fit: contain;">
+        <img src="Assets/IMG/linkedin.jpeg" alt="LinkedIn Logo" style="width: 50px; height: 50px; object-fit: contain;"><!--link to image with alternative text-->
       </a>
     </div>
   </div>
 </section><!-- ====Section Contact End ==== -->
-<footer class="text-center py-3 bg-dark text-white"><!-- ====Footer Start ==== -->
-  &copy; 2024 Alix Tanguay. All Rights Reserved.
+<footer class="text-center py-3 bg-dark text-white font-jost"><!-- ====Footer Start ==== -->
+  &copy; 2024 Alix Tanguay. All Rights Reserved.<!--icon and text for copyrights-->
 </footer><!-- ====Footer End ==== -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script><!--bootstrap-->
 </body><!-- ====Body End ==== -->
 </html>
