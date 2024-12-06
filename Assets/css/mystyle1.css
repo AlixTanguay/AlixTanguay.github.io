@@ -35,9 +35,6 @@ a {
 a:link {
   color: rgb(0, 0, 0);
 }
-a:hover {
-  color: rgb(255, 170, 0)
-}
 /*this calss added a border to the images*/
 img {
   border: 5px solid rgb(3, 3, 3)ff;
