@@ -5,6 +5,11 @@ body  {
     background-attachment: fixed;
 }
 
+.font-home-button{
+  font-family: "Bebas Neue", Georgia, serif;
+}
+
+
   .navbar a {
     color: rgb(3, 3, 3) ;
   }
